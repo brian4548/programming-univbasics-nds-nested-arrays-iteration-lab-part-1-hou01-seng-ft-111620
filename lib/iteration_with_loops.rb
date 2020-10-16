@@ -15,3 +15,14 @@ def find_even_values(src)
     row_index += 1
   end
 end
+
+
+def find_even_values(src)
+  min = ary[0]
+  for ele in ary[1..]
+    if ele < min
+      min = ele 
+    end
+  end
+  min
+end
